@@ -4,7 +4,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 city = 'London'
-api = 'ffbbe19a29da59fb8352e8492336a23f'
+api = ''
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api}&units=metric"
 
 
