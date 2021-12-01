@@ -32,6 +32,7 @@ def to_redis(payload):
 for raw_dict in readcsv():
     to_redis(payload_gen(raw_dict))
 
-# for range from 0 to 1000
+# get an information from database
+# for range from 0 to 1000 and print it
 for i in rconn.lrange('NL', 0, 1000):
     print(i)
