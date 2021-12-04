@@ -2,6 +2,7 @@
 
 print('')
 
+# list of recipients
 m_whom = [
     '"Masha Mashina" <masha@yandex.ru>', 
     '"Misha Mishin" <misha@yandex.ru>', 
